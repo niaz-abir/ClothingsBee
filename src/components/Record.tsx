@@ -9,17 +9,17 @@ const Record = () => {
         <div className=" grid grid-cols-1  lg:grid-cols-3 gap-4 p-8 rounded-sm">
           <div className="lg:pl-8 pl-28">
             <PiTShirtDuotone className="text-8xl" />
-            <h1 className="text-4xl font-bold text-white pt-2">1000k</h1>
+            <h1 className="text-4xl font-bold text-white pt-2">77,000+</h1>
             <h3 className="text-[20px] text-white">T-shirts produced</h3>
           </div>
           <div className="lg:pl-8 pl-28">
             <GiBilledCap className="text-8xl " />
-            <h1 className="text-4xl font-bold text-white pt-2">500k</h1>
+            <h1 className="text-4xl font-bold text-white pt-2">53,000+</h1>
             <h3 className="text-[20px] text-white">Caps produced</h3>
           </div>
           <div className="lg:pl-8 pl-28">
             <GiShirt className="text-8xl" />
-            <h1 className="text-4xl font-bold text-white pt-2">200k</h1>
+            <h1 className="text-4xl font-bold text-white pt-2">21,000+</h1>
             <h3 className="text-[20px] text-white">Hoodies produced</h3>
           </div>
         </div>
