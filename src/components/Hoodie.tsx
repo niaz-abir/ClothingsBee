@@ -11,7 +11,7 @@ const Hoodie = () => {
   const allCaps = [
     {
       id: 2,
-      name: "Porkpie Cap",
+      name: "Clothings Bee softstyle hoodie",
       no: "02",
       image: image1,
       price: "$15.99",
@@ -20,7 +20,7 @@ const Hoodie = () => {
     },
     {
       id: 4,
-      name: "Fedora Cap",
+      name: "Clothings Bee softstyle hoodie",
       no: "04",
       image: image2,
       price: "$14.99",
@@ -29,7 +29,7 @@ const Hoodie = () => {
     },
     {
       id: 5,
-      name: "Baseball Cap",
+      name: "Clothings Bee softstyle hoodie",
       no: "05",
       image: image1,
       price: "$13.99",
@@ -38,7 +38,7 @@ const Hoodie = () => {
     },
     {
       id: 6,
-      name: "Porkpie Cap",
+      name: "Clothings Bee softstyle hoodie",
       no: "02",
       image: image3,
       price: "$12.99",
@@ -89,16 +89,16 @@ const Hoodie = () => {
               ></Image>
 
               <motion.h1
-                className=" flex  rounded-md gap-2 pt-8  text-[20px] lg:text-[24px] items-center"
-                variants={{
-                  hidden: { opacity: 0, x: -50 },
-                  visible: { opacity: 1, x: 0 },
-                }}
-                transition={{ duration: 0.7 }}
-              >
-                <span className=" pl-2 rounded-md font-bold">Each Price :</span>
-                {cap?.price}
-              </motion.h1>
+                             className=" flex   font-bold rounded-md gap-2 pt-8  text-[20px] lg:text-[24px] items-center"
+                             variants={{
+                               hidden: { opacity: 0, x: -50 },
+                               visible: { opacity: 1, x: 0 },
+                             }}
+                             transition={{ duration: 0.7 }}
+                           >
+                             <span className=" pl-2 rounded-md font-bold"></span>
+                             {cap?.name}
+                           </motion.h1>
 
               <motion.h1
                 className=" flex  rounded-md gap-2  text-[20px] lg:text-[24px] items-center"
@@ -120,10 +120,7 @@ const Hoodie = () => {
                 }}
                 transition={{ duration: 0.7 }}
               >
-                <span className=" pl-2 rounded-md font-bold">
-                  Total Price :
-                </span>
-                {cap?.total}
+                
               </motion.h1>
               <div className="flex items-center gap-x-4 pt-4 ">
                 <Link href="order-now">

@@ -13,7 +13,7 @@ const Testimonial = () => {
             <span className="text-[#FD3B29] "> customers</span> have to say
           </h2>
           <p className="text-[18px] font-medium text-black">
-            Discover how our service can benefit you have grow.
+            Discover how our clothing brings comfort, style, and confidence.
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 w-full">
@@ -26,11 +26,12 @@ const Testimonial = () => {
           >
             <div className="flex flex-col gap-y-3.5">
               <p className="font-bold text-xl text-black">
-                Efficient customer support
+                Stylish and comfortable
               </p>
               <p className="font-medium text-black">
-                Exceptional service and support! The team quickly resolved our
-                IT issues and provided invaluable advice. Highly recommend!
+                Absolutely love the quality of their clothes! The fabric feels
+                soft, fits perfectly, and looks amazing. Truly exceeded my
+                expectations!
               </p>
             </div>
             <div className="flex flex-col">
@@ -43,7 +44,7 @@ const Testimonial = () => {
                 Emily Smith
               </p>
               <p className="text-sm font-medium text-black">
-                Marketing Manager at Vivid Horizons
+                Fashion Blogger at TrendVibe
               </p>
             </div>
           </motion.div>
@@ -56,12 +57,12 @@ const Testimonial = () => {
           >
             <div className="flex flex-col gap-y-3.5">
               <p className="font-bold text-xl text-black">
-                Excellent product features
+                Premium fabric quality
               </p>
               <p className="font-medium text-black">
-                Professional, reliable, and knowledgeable. They transformed our
-                IT infrastructure seamlessly and improved our overall
-                efficiency.
+                The collection is both trendy and durable. Every shirt and pant
+                I’ve purchased has retained its color and shape even after many
+                washes.
               </p>
             </div>
             <div className="flex flex-col">
@@ -74,7 +75,7 @@ const Testimonial = () => {
                 Michael Johnson
               </p>
               <p className="text-sm font-medium text-black">
-                CEO at Apex Dynamics
+                CEO at Urban Threads
               </p>
             </div>
           </motion.div>
@@ -87,11 +88,12 @@ const Testimonial = () => {
           >
             <div className="flex flex-col gap-y-3.5">
               <p className="font-bold text-xl text-black">
-                Seamless integration process
+                Perfect fit and finish
               </p>
               <p className="font-medium text-black">
-                Fantastic experience! Their expertise in web development and
-                digital marketing significantly boosted our online presence.
+                Fantastic shopping experience! Their t-shirts and jerseys fit
+                just right, and the stitching quality is top-notch. Highly
+                satisfied!
               </p>
             </div>
             <div className="flex flex-col">
@@ -104,7 +106,7 @@ const Testimonial = () => {
                 Sarah Brown
               </p>
               <p className="text-sm font-medium text-black">
-                CTO at NexEra Ventures
+                Stylist at ModeLine Studio
               </p>
             </div>
           </motion.div>
@@ -117,11 +119,11 @@ const Testimonial = () => {
           >
             <div className="flex flex-col gap-y-3.5">
               <p className="font-bold text-xl text-black">
-                Reliable service uptime
+                Great value for money
               </p>
               <p className="font-medium text-black">
-                Outstanding service! They delivered high-quality web development
-                and provided excellent ongoing support. Worth every penny!
+                Their clothes look premium but come at such reasonable prices.
+                Excellent service, fast delivery, and super comfortable outfits!
               </p>
             </div>
             <div className="flex flex-col">
@@ -134,7 +136,7 @@ const Testimonial = () => {
                 James White
               </p>
               <p className="text-sm font-medium text-black">
-                COO at clipse Enterprises
+                Content Creator at DailyFit Wear
               </p>
             </div>
           </motion.div>

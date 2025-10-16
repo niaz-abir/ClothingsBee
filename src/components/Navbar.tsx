@@ -77,7 +77,7 @@ const Navbar = () => {
                   href="/#services"
                   className="block py-2 px-3 text-[20px] lg:w-full   w-36 text-black rounded md:border-0"
                 >
-                  TShirt
+                  T-Shirts
                 </a>
               </li>
               <li>
@@ -85,7 +85,7 @@ const Navbar = () => {
                   href="/#package"
                   className="block py-2 px-3 text-[20px] lg:w-full   w-36 text-black rounded md:border-0"
                 >
-                  Cap
+                  Caps
                 </a>
               </li>
               <li>
@@ -93,7 +93,7 @@ const Navbar = () => {
                   href="/#package"
                   className="block py-2 px-3 text-[20px] lg:w-full   w-36 text-black rounded md:border-0"
                 >
-                  Hoodie
+                  Hoodies
                 </a>
               </li>
               <li>
@@ -107,7 +107,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="tel:+1 716 406 7972"
-                  className="p-2 flex items-center gap-2 text-[20px] lg:w-full bg-gradient-to-r from-[#da7c41] to-[#FD3B29]  w-56 text-black rounded md:border-0"
+                  className="p-2 flex items-center gap-2 text-[20px] lg:w-full bg-gradient-to-r from-[#e05c2c] to-[#FD3B29]  w-56 text-white rounded md:border-0"
                 >
                   <MdOutlinePermPhoneMsg /> +1 (425) 548-4872
                 </a>
@@ -119,7 +119,7 @@ const Navbar = () => {
       {isScrolled && (
         <div className="fixed bottom-10 right-10 z-50">
           <a
-            href="https://wa.me/+8801845692696"
+            href="https://wa.me/+1 (425) 548-4872"
             target="_blank"
             rel="noopener noreferrer"
             className=" p-3 rounded-full shadow-lg text-black"

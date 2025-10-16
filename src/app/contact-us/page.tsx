@@ -84,10 +84,10 @@ const ContactUs = () => {
                       Our Address
                     </h3>
                     <p className="text-black dark:text-slate-400">
-                      E13 9BL, Fawn road,
+                      2510 164th St Apt F207,
                     </p>
                     <p className="text-black dark:text-slate-400">
-                      Upton park, London, United Kingdoom.
+                      Lynnwood, Washington 98087, United States.
                     </p>
                   </div>
                 </li>
@@ -115,7 +115,7 @@ const ContactUs = () => {
                       Contact
                     </h3>
                     <p className="text-black dark:text-slate-400">
-                      Mobile: +44 7459 449187
+                      Mobile: +1 (425) 548-4872
                     </p>
                     <p className="text-black dark:text-slate-400">
                       Mail: clothingsbee.co.uk@gmail.com
