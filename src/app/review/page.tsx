@@ -30,6 +30,32 @@ const Review = () => {
             className="w-full h-96 object-cover"
           ></video>
         </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true, amount: 0.3 }}
+          className="rounded-xl overflow-hidden shadow-md bg-[#e7dec7] border border-neutral-800/50"
+        >
+          <video
+            src="/images/videoreview7 (1).mp4"
+            controls
+            className="w-full h-96 object-cover"
+          ></video>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true, amount: 0.3 }}
+          className="rounded-xl overflow-hidden shadow-md bg-[#e7dec7] border border-neutral-800/50"
+        >
+          <video
+            src="/images/videoreview7 (2).mp4"
+            controls
+            className="w-full h-96 object-cover"
+          ></video>
+        </motion.div>
 
         {/* Video 2 */}
         <motion.div
