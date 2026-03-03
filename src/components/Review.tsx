@@ -7,10 +7,10 @@ const Review = () => {
   return (
     <section className="max-w-6xl mt-8 mx-auto px-6 py-16">
       <div className="text-center mb-10">
-        <h2 className="text-3xl lg:text-4xl font-bold text-black">
+        <h2 className="text-3xl lg:text-4xl font-bold text-white">
           Customer <span className="text-[#FD3B29]">Review </span> Videos
         </h2>
-        <p className="text-lg font-medium text-black mt-2">
+        <p className="text-lg font-medium text-white mt-2">
           Watch what our happy customers are saying about our clothing.
         </p>
       </div>

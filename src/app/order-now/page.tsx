@@ -84,10 +84,10 @@ const Order = () => {
         {/* <Image src={image2} height={450} width={450} alt="price" /> */}
       </div>
       <div>
-        <div className="text-black relative px-2 p-8 rounded-md w-[400px] lg:w-[800px] shadow-lg sm:rounded-3xl">
+        <div className="text-white relative px-2 p-8 rounded-md w-[400px] lg:w-[800px] shadow-lg sm:rounded-3xl">
           <div className="text-center pb-4 -mt-4">
             <h1 className="text-4xl font-bold pt-4 pb-3">Order Process</h1>
-            <p className="text-black pb-2">
+            <p className="text-white pb-2">
               Please check the prices below before submitting your request.
               After you fill out the form, we’ll review your details and provide
               a mockup and final quote based on your requirements. Upload your

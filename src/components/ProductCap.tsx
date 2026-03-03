@@ -51,7 +51,7 @@ const ProductCap = () => {
     <section id="caps">
       <div className="text-center mb-14 mt-14 p-4">
         <h1 className="font-bold text-center text-4xl">Our Trucker Hats</h1>
-        <p className="text-[18px] text-black">
+        <p className="text-[18px] text-white">
           From enhancing your digital presence to creating impactful designs, we
           provide <br />
           solutions that drive business growth.
@@ -61,7 +61,7 @@ const ProductCap = () => {
         {allCaps.map((cap) => (
           <motion.div
             key={cap.id}
-            className="bg-[#e7dec7] rounded-md p-2 lg:w-80 m-4 relative"
+            className="bg-[#353535] rounded-md p-2 lg:w-96 m-4 relative"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -127,7 +127,7 @@ const ProductCap = () => {
               </motion.h1> */}
               <div className="flex items-center gap-x-4 pt-4 ">
                 <Link href="order-now">
-                  <button className="w-36 h-14 bg-gradient-to-r from-[#e0584c] to-[#FD3B29] hover:bg-[#132836] border-none rounded-md text-[18px] text-white font-bold transition-all duration-300">
+                  <button className="w-52 h-14 bg-gradient-to-r from-[#e0584c] to-[#FD3B29] hover:bg-[#132836] border-none rounded-md text-[18px] text-white font-bold transition-all duration-300">
                     Order now
                   </button>
                 </Link>

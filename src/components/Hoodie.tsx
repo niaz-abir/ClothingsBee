@@ -51,7 +51,7 @@ const Hoodie = () => {
     <section id="caps">
       <div className="text-center mb-14 mt-14 p-4">
         <h1 className="font-bold text-center text-4xl">Our Hoodie</h1>
-        <p className="text-[18px] text-black">
+        <p className="text-[18px] text-white">
           From enhancing your digital presence to creating impactful designs, we
           provide <br />
           solutions that drive business growth.
@@ -61,7 +61,7 @@ const Hoodie = () => {
         {allCaps.map((cap) => (
           <motion.div
             key={cap.id}
-            className="bg-[#e7dec7] rounded-md p-2 lg:w-80 m-4 relative"
+            className="bg-[#353535] rounded-md p-2 lg:w-96 m-4 relative"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -89,16 +89,16 @@ const Hoodie = () => {
               ></Image>
 
               <motion.h1
-                             className=" flex   font-bold rounded-md gap-2 pt-8  text-[20px] lg:text-[24px] items-center"
-                             variants={{
-                               hidden: { opacity: 0, x: -50 },
-                               visible: { opacity: 1, x: 0 },
-                             }}
-                             transition={{ duration: 0.7 }}
-                           >
-                             <span className=" pl-2 rounded-md font-bold"></span>
-                             {cap?.name}
-                           </motion.h1>
+                className=" flex   font-bold rounded-md gap-2 pt-8  text-[20px] lg:text-[24px] items-center"
+                variants={{
+                  hidden: { opacity: 0, x: -50 },
+                  visible: { opacity: 1, x: 0 },
+                }}
+                transition={{ duration: 0.7 }}
+              >
+                <span className=" pl-2 rounded-md font-bold"></span>
+                {cap?.name}
+              </motion.h1>
 
               <motion.h1
                 className=" flex  rounded-md gap-2  text-[20px] lg:text-[24px] items-center"
@@ -119,9 +119,7 @@ const Hoodie = () => {
                   visible: { opacity: 1, x: 0 },
                 }}
                 transition={{ duration: 0.7 }}
-              >
-                
-              </motion.h1>
+              ></motion.h1>
               <div className="flex items-center gap-x-4 pt-4 ">
                 <Link href="order-now">
                   <button className="w-36 h-14 bg-gradient-to-r from-[#e0584c] to-[#FD3B29] hover:bg-[#132836] border-none rounded-md text-[18px] text-white font-bold transition-all duration-300">

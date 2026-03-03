@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
 import { AiOutlineMenuFold } from "react-icons/ai";
 
-import image3 from "../../public/images/clothlogo.png";
+import image3 from "../../public/images/Clothings Bee (Logo)-07 (2).png";
 import Image from "next/image";
 
 const Navbar = () => {
@@ -33,7 +33,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="bg-[#f3eddd] shadow-md shadow-[#b1aa9c] ml-0 lg:ml-6 mr-0 lg:mr-6 rounded-sm">
+    <div className=" shadow-md text-white ml-0 lg:ml-6 mr-0 lg:mr-6 rounded-sm">
       <nav className="mt-2">
         <div className="max-w-screen-xl flex flex-wrap items-center  justify-between mx-auto p-4">
           {/* <h1 className="flex gap-2 ml-0 lg:-ml-8 items-center text-2xl">
@@ -63,11 +63,11 @@ const Navbar = () => {
             } w-full md:block md:w-auto`}
             id="navbar-default"
           >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 text-black  ">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 text-white  ">
               <li>
                 <Link
                   href="about-us"
-                  className="block py-2 px-3 text-[20px] lg:w-full  w-36 text-black rounded md:border-0"
+                  className="block py-2 px-3 text-[20px] lg:w-full  w-36 text-white rounded md:border-0"
                 >
                   About us
                 </Link>
@@ -75,7 +75,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="/#services"
-                  className="block py-2 px-3 text-[20px] lg:w-full   w-36 text-black rounded md:border-0"
+                  className="block py-2 px-3 text-[20px] lg:w-full   w-36 text-white rounded md:border-0"
                 >
                   T-Shirts
                 </a>
@@ -83,7 +83,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="/#package"
-                  className="block py-2 px-3 text-[20px] lg:w-full   w-36 text-black rounded md:border-0"
+                  className="block py-2 px-3 text-[20px] lg:w-full   w-36 text-white rounded md:border-0"
                 >
                   Caps
                 </a>
@@ -91,7 +91,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="/#package"
-                  className="block py-2 px-3 text-[20px] lg:w-full   w-36 text-black rounded md:border-0"
+                  className="block py-2 px-3 text-[20px] lg:w-full   w-36 text-white rounded md:border-0"
                 >
                   Hoodies
                 </a>
@@ -99,7 +99,7 @@ const Navbar = () => {
               <li>
                 <Link
                   href="contact-us"
-                  className="block py-2 px-3 text-[20px] lg:w-full  w-36 text-black rounded md:border-0"
+                  className="block py-2 px-3 text-[20px] lg:w-full  w-36 text-white rounded md:border-0"
                 >
                   Contact Us
                 </Link>
@@ -122,7 +122,7 @@ const Navbar = () => {
             href="https://wa.me/+1 425 548-4872"
             target="_blank"
             rel="noopener noreferrer"
-            className=" p-3 rounded-full shadow-lg text-black"
+            className=" p-3 rounded-full shadow-lg text-white"
           >
             <FaWhatsapp
               size={50}

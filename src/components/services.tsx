@@ -1,13 +1,10 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { FaPhotoVideo } from "react-icons/fa";
-import { GrAppsRounded } from "react-icons/gr";
-import { IoIosApps } from "react-icons/io";
+
 import { RiPaintBrushLine, RiTShirt2Line, RiWebhookLine } from "react-icons/ri";
-import { TfiWrite } from "react-icons/tfi";
-import { VscGraph } from "react-icons/vsc";
 import { FiShoppingBag } from "react-icons/fi";
+import { PiBaseballCapLight } from "react-icons/pi";
 
 const Services = () => {
   const allServices = [
@@ -15,7 +12,7 @@ const Services = () => {
       id: 1,
       name: "Custom Cap Design",
       no: "01",
-      icon: <RiPaintBrushLine />,
+      icon: <PiBaseballCapLight />,
       details:
         "Create personalized caps that showcase your unique style. From trendy designs to brand logos, we bring your vision to life.",
     },
@@ -39,11 +36,11 @@ const Services = () => {
 
   return (
     <section id="services">
-      <div className="text-center mb-14 mt-14 p-4">
+      <div className="text-center mb-14 mt-20 p-4">
         <h1 className="font-bold text-center text-4xl">
           Discover Our Services
         </h1>
-        <p className="text-[18px] text-black">
+        <p className="text-[18px] text-white">
           From crafting unique apparel to delivering exceptional customer
           experiences, <br /> we provide solutions that drive your clothing
           business forward.
@@ -51,52 +48,27 @@ const Services = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {allServices.map((service) => (
-          <motion.div
-            key={service.id}
-            className="bg-[#e7dec7] rounded-md p-4 lg:w-96 m-6"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
-          >
-            <motion.div
-              className="p-4"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.3 }}
-              variants={{
-                visible: {
-                  transition: {
-                    staggerChildren: 0.4,
-                  },
-                },
-              }}
-            >
-              <motion.h1
-                className="font-bold flex  rounded-md gap-2 pb-2 pt-2 text-[20px] lg:text-[28px] items-center"
-                variants={{
-                  hidden: { opacity: 0, x: -50 },
-                  visible: { opacity: 1, x: 0 },
-                }}
-                transition={{ duration: 0.7 }}
-              >
-                <span className="text-[#FD3B29] p-2 rounded-md">
-                  {service.icon}
-                </span>
-                {service.name}
-              </motion.h1>
-              <motion.h2
-                className="text-[18px] pt-4 pb-6"
-                variants={{
-                  hidden: { opacity: 0, y: 50 },
-                  visible: { opacity: 1, y: 0 },
-                }}
-                transition={{ duration: 0.5 }}
-              >
-                {service.details}
-              </motion.h2>
-            </motion.div>
-          </motion.div>
+          <div key={service?.id} className="parent">
+            <div className="cardService ">
+              <div className="logo">
+                {/* <span className="circle circle1"></span>
+                <span className="circle circle2"></span> */}
+                {/* <span className="circle circle3"></span> */}
+
+                <span className="circle circle5 text-4xl">{service?.icon}</span>
+              </div>
+
+              <div className="glass"></div>
+              <div className="content">
+                <span className="title">{service?.name}</span>
+                <span className="text-[16px] ">{service?.details}</span>
+              </div>
+              <div className="bottom">
+                <div className="social-buttons-container"></div>
+                <div className="view-more"></div>
+              </div>
+            </div>
+          </div>
         ))}
       </div>
     </section>

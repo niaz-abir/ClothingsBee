@@ -8,11 +8,11 @@ const Testimonial = () => {
     <section>
       <section className="max-w-5xl mx-auto w-full px-10 py-10">
         <div className="flex items-center justify-center flex-col mb-8 gap-y-2 py-5">
-          <h2 className="text-2xl lg:text-4xl font-bold  text-center text-black">
+          <h2 className="text-2xl lg:text-4xl font-bold  text-center text-white">
             Heres what our
             <span className="text-[#FD3B29] "> customers</span> have to say
           </h2>
-          <p className="text-[18px] font-medium text-black">
+          <p className="text-[18px] font-medium text-white">
             Discover how our clothing brings comfort, style, and confidence.
           </p>
         </div>
@@ -22,13 +22,13 @@ const Testimonial = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true, amount: 0.3 }}
-            className="border p-7 rounded-xl bg-[#e7dec7] drop-shadow-md border-neutral-800/50 col-span-2 flex flex-col gap-y-10 justify-between"
+            className="border p-7 rounded-xl bg-[#353535] drop-shadow-md border-neutral-800/50 col-span-2 flex flex-col gap-y-10 justify-between"
           >
             <div className="flex flex-col gap-y-3.5">
-              <p className="font-bold text-xl text-black">
+              <p className="font-bold text-xl text-white">
                 Stylish and comfortable
               </p>
-              <p className="font-medium text-black">
+              <p className="font-medium text-white">
                 Absolutely love the quality of their clothes! The fabric feels
                 soft, fits perfectly, and looks amazing. Truly exceeded my
                 expectations!
@@ -40,10 +40,10 @@ const Testimonial = () => {
                 alt="Emily Smith"
                 className="h-10 w-10"
               />
-              <p className="pt-2 text-sm font-semibold text-black">
+              <p className="pt-2 text-sm font-semibold text-white">
                 Emily Smith
               </p>
-              <p className="text-sm font-medium text-black">
+              <p className="text-sm font-medium text-white">
                 Fashion Blogger at TrendVibe
               </p>
             </div>
@@ -53,13 +53,13 @@ const Testimonial = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true, amount: 0.3 }}
-            className="border p-7 rounded-xl bg-[#e7dec7] drop-shadow-md border-neutral-800/50 col-span-3 flex flex-col gap-y-10 justify-between"
+            className="border p-7 rounded-xl bg-[#353535] drop-shadow-md border-neutral-800/50 col-span-3 flex flex-col gap-y-10 justify-between"
           >
             <div className="flex flex-col gap-y-3.5">
-              <p className="font-bold text-xl text-black">
+              <p className="font-bold text-xl text-white">
                 Premium fabric quality
               </p>
-              <p className="font-medium text-black">
+              <p className="font-medium text-white">
                 The collection is both trendy and durable. Every shirt and pant
                 I’ve purchased has retained its color and shape even after many
                 washes.
@@ -71,10 +71,10 @@ const Testimonial = () => {
                 alt="Michael Johnson"
                 className="h-10 w-10"
               />
-              <p className="pt-2 text-sm font-semibold text-black">
+              <p className="pt-2 text-sm font-semibold text-white">
                 Michael Johnson
               </p>
-              <p className="text-sm font-medium text-black">
+              <p className="text-sm font-medium text-white">
                 CEO at Urban Threads
               </p>
             </div>
@@ -84,13 +84,13 @@ const Testimonial = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true, amount: 0.3 }}
-            className="border p-7 rounded-xl bg-[#e7dec7] drop-shadow-md border-neutral-800/50 col-span-3 flex flex-col gap-y-10 justify-between"
+            className="border p-7 rounded-xl bg-[#353535] drop-shadow-md border-neutral-800/50 col-span-3 flex flex-col gap-y-10 justify-between"
           >
             <div className="flex flex-col gap-y-3.5">
-              <p className="font-bold text-xl text-black">
+              <p className="font-bold text-xl text-white">
                 Perfect fit and finish
               </p>
-              <p className="font-medium text-black">
+              <p className="font-medium text-white">
                 Fantastic shopping experience! Their t-shirts and jerseys fit
                 just right, and the stitching quality is top-notch. Highly
                 satisfied!
@@ -102,10 +102,10 @@ const Testimonial = () => {
                 alt="Sarah Brown"
                 className="h-10 w-10"
               />
-              <p className="pt-2 text-sm font-semibold text-black">
+              <p className="pt-2 text-sm font-semibold text-white">
                 Sarah Brown
               </p>
-              <p className="text-sm font-medium text-black">
+              <p className="text-sm font-medium text-white">
                 Stylist at ModeLine Studio
               </p>
             </div>
@@ -115,13 +115,13 @@ const Testimonial = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true, amount: 0.3 }}
-            className="border p-7 rounded-xl bg-[#e7dec7] drop-shadow-md border-neutral-800/50 col-span-2 flex flex-col gap-y-10 justify-between"
+            className="border p-7 rounded-xl bg-[#353535] drop-shadow-md border-neutral-800/50 col-span-2 flex flex-col gap-y-10 justify-between"
           >
             <div className="flex flex-col gap-y-3.5">
-              <p className="font-bold text-xl text-black">
+              <p className="font-bold text-xl text-white">
                 Great value for money
               </p>
-              <p className="font-medium text-black">
+              <p className="font-medium text-white">
                 Their clothes look premium but come at such reasonable prices.
                 Excellent service, fast delivery, and super comfortable outfits!
               </p>
@@ -132,10 +132,10 @@ const Testimonial = () => {
                 alt="James White"
                 className="h-10 w-10"
               />
-              <p className="pt-2 text-sm font-semibold text-black">
+              <p className="pt-2 text-sm font-semibold text-white">
                 James White
               </p>
-              <p className="text-sm font-medium text-black">
+              <p className="text-sm font-medium text-white">
                 Content Creator at DailyFit Wear
               </p>
             </div>
