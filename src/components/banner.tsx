@@ -29,7 +29,7 @@ export function Banner() {
   }
 
   return (
-    <section className="relative w-full h-[60vh] md:h-[80vh] lg:h-[95vh] mb-12">
+    <section className="relative flex-col lg:flex-row w-full h-[60vh] md:h-[80vh] lg:h-[95vh] mb-12">
       <Swiper
         modules={[Pagination, Autoplay]}
         pagination={{ clickable: true }}
